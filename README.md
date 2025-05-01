@@ -1,14 +1,16 @@
 # Hells Kitchen Contestant Prediction
 
-After fittig a logistic regression model to find contestants who were in the top 3, and using `signature_dish_score_numeric`, `times_nominated`, and `times_as_bo_w_announcer`  as predictors an accuracy of *0.9375000* was achieved.
+After fitting a logistic regression model to find contestants who were in the top 3, and using `signature_dish_score_numeric`, `times_nominated`, and `times_as_bo_w_announcer` as predictors an accuracy of **0.9375000** was achieved.
 
-A precission of *0.875* was achived and a recall of *0.7777778*
+A precission of **0.875** was achived and a recall of **0.7777778**
 
 The confusion matrix is:           
-            Truth
-Prediction  0  1
-         0 38  2
-         1  1  7
+
+|  | Truth ||
+| -------- | ------- |-------|
+| **Prediction** | 0 | 1 |
+| 0 | 38 | 2 |
+| 1 | 1 | 7 |
 
 
 ## Discussion on feature selection
