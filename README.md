@@ -1,4 +1,4 @@
-# Hells Kitchen Contestant Prediction
+# Hell's Kitchen Contestant Prediction
 
 After fitting a logistic regression model to find contestants who were in the top 3, and using `signature_dish_score_numeric`, `times_nominated`, and `times_as_bo_w_announcer` as predictors an accuracy of **0.9375000** was achieved.
 
